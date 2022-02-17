@@ -1,6 +1,6 @@
 .container-card{
     background-color: var(--dark-desatured-blue);
-    padding: 1.5em 4.2em;
+    padding: 1.5em 4.5em;
     border-radius: 5px;
     overflow: hidden;
     transition: background-color 0.3s ease-in-out;
@@ -9,7 +9,7 @@
 
 .container-card-light{
     background-color: var(--light-grayish-blue);
-    padding: 1.5em 4.2em;
+    padding: 1.5em 4.5em;
     border-radius: 5px;
     overflow: hidden;
     transition: background-color 0.3s ease-in-out;
