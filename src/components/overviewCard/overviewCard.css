@@ -1,0 +1,85 @@
+.container-overview-card {
+    background-color: var(--dark-desatured-blue);
+    padding: 2em 2em 1em 2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.container-overview-card-light {
+    background-color: var(--light-grayish-blue);
+    padding: 2em 2em 1em 2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    transition-delay: 0.2s;
+
+}
+
+.container-overview-card:hover {
+    background-color: rgb(59, 63, 98);
+    transition: all 0.2s ease-in-out;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row:first-child {
+    margin-bottom: 1.5em;
+}
+
+.type {
+    color: var(--desatured-blue);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.type-light {
+    color: var(--dark-grayish-blue);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.number-action {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.number-action-light {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.progression-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progression-type img {
+    padding-right: 0.2em;
+}
+
+@media (max-width: 500px) {
+    .container-overview-card {
+        margin: 0 1.5em;
+    }
+
+    .container-overview-card-light {
+        margin: 0 1.5em;
+
+    }
+}
+

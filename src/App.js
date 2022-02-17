@@ -1,9 +1,11 @@
+import Dashboard from "./containers/dashboard/dashboard";
+
 
 
 function App() {
   return (
     <div className="App">
-      Test
+      <Dashboard />
     </div>
   );
 }
