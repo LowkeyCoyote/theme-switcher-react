@@ -1,8 +1,6 @@
-
-.container-dashboard {
-    display: flex;
-    flex-direction: row;
-    max-width: 1100px;
+.dashboard-container{
+    max-width: 1150px;
+    margin-bottom: 5em;
 }
 
 .secondary-bg {

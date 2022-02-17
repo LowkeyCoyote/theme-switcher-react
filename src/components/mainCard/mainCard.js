@@ -38,7 +38,7 @@ const mainCard = (props) => {
                 <span className={props.darkTheme ? "text-span" : "text-span-light"}>{props.account}</span>
             </div>
             <div className="stats">
-                <h3 className={props.darkTheme ? "number-followers" : "number-followers-light"}>{props.followers}</h3>
+                <h2 className={props.darkTheme ? "number-followers" : "number-followers-light"}>{props.followers}</h2>
                 <p className="subtitle-followers">{props.typeFollowers}</p>
                 <div className="progression-followers">
                     <img src={props.upOrDown} alt="updown"/>

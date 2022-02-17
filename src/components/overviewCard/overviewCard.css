@@ -22,6 +22,11 @@
     transition: all 0.2s ease-in-out;
 }
 
+.container-overview-card-light:hover{
+    background-color:  #e2e4ee;
+    transition: background-color 0.2s;
+}
+
 .row {
     display: flex;
     align-items: center;

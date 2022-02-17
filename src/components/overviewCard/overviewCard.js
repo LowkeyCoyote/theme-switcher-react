@@ -15,7 +15,7 @@ const overviewCard = (props) => {
     return (
         <div className={props.darkTheme ? "container-overview-card" : "container-overview-card-light"}>
             <div className="row">
-                <h4 className={props.darkTheme ? "text-span" : "text-span-light"}>{props.type}</h4>
+                <h3 className={props.darkTheme ? "text-span" : "text-span-light"}>{props.type}</h3>
                 <img src={props.iconSocial} alt="icon"/>
             </div>
             <div className="row">
